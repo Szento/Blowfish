@@ -1,0 +1,24 @@
+# Hugo build output
+public/
+resources/_gen/
+.hugo_build.lock
+
+# Hugo cache
+.cache/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor/IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Node (if using npm/postcss for Blowfish assets)
+node_modules/
+npm-debug.log*
+
+# Environment/secrets
+.env
