@@ -2,3 +2,8 @@ baseURL = "https://szento.github.io/Blowfish/"
 locale = 'en-us'
 title = 'My New Hugo Project'
 relativeURLs = true
+
+[markup]
+    [markup.goldmark]
+        [markup.goldmark.renderer]
+            unsafe = true
